@@ -9,7 +9,7 @@ env:
   applicationfolder: spring-boot-hello-world-example
   AWS_REGION: us-east-1
   S3BUCKET: codedeploystack-webappdeploymentbucket-1bxv9n82gf8xw 
-
+  S3bucket_CodeGuru: codeguru-reviewer-demobucket
 jobs:
   build:
     name: Build and Package
